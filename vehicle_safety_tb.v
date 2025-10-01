@@ -31,7 +31,7 @@ module vehicle_safety_tb;
     wire START_PERMIT, CHIME;
     wire WARN_PRI2, WARN_PRI1;
     wire SEAT_WARN, DOOR_WARN, HOOD_WARN, TRUNK_WARN;
-    wire BAT_WARN, AIRBAG_WARN, TEMP_WARN, PBRK_WARN;
+    wire BAT_WARN, AIRBAG_WARN, TEMP_WARN;
 
     // Instantiate the DUT (Device Under Test)
     vehicle_safety uut (
@@ -41,7 +41,7 @@ module vehicle_safety_tb;
         .START_PERMIT(START_PERMIT), .CHIME(CHIME),
         .WARN_PRI2(WARN_PRI2), .WARN_PRI1(WARN_PRI1),
         .SEAT_WARN(SEAT_WARN), .DOOR_WARN(DOOR_WARN), .HOOD_WARN(HOOD_WARN), .TRUNK_WARN(TRUNK_WARN),
-        .BAT_WARN(BAT_WARN), .AIRBAG_WARN(AIRBAG_WARN), .TEMP_WARN(TEMP_WARN), .PBRK_WARN(PBRK_WARN)
+        .BAT_WARN(BAT_WARN), .AIRBAG_WARN(AIRBAG_WARN), .TEMP_WARN(TEMP_WARN)
     );
 
     initial begin
