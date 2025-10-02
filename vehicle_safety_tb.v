@@ -54,9 +54,9 @@ module vehicle_safety_tb;
         
         #10 KEY=0; BRK=0; PARK=0;
         
-        #10 BAT_OK=0;
+        #10 BAT_OK=1;
 
-        #10 SB=1;PASS_OCC=1;SB_P=1;SRV=0;
+        #10 SB=1;PASS_OCC=1;SB_P=1;SRV=0;TRUNK=1;HOOD=1;DOOR=1;
         
         #10 $stop;
     end
